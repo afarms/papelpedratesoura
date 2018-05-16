@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Pedra Papel Tesoura</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script src="script.js"></script>
+
+</head>
+<body>
+	<div class="principal">
+		<div id="layout"><h1 align="center">Pedra, Papel ou tesoura!</h1></div>
+			<div id="jogador" align="center"> <h2 id='oi'>Jogador</h2>
+				<p>
+					<button id="b_pedra" type="button" name="pedra" onclick="escolha(0)"></button>
+					<button id="b_papel" type="button" name="papel" onclick="escolha(1)"></button>
+					<button id="b_tesoura" type="button" name="tesoura" onclick="escolha(2)"></button><br>
+					<h4>Papel  |  Pedra  |  Tesoura</h4>
+				</p>
+			</div>
+			<div id="computador" align="center"> <h2>Computador</h2>
+				<img id='jogadapc' src="imagem/interrogacao1.png">
+			</div><br>
+			<div id="kk">	
+				<div id= "placar">	
+				<br>
+				<br>	
+				<p id="i" align="center" style="font-size: 19px"> <b>Resultado</b></p>
+				</div>
+				<div id ="placar2">
+					<p align="center">Numero de empates: <input  class="asd" id="empates" type="text" disabled="disabled" value="0" /></p>
+					<p align="center">Vitória do PC: <input class="asd" type="text" id="placar-computador" disabled="disabled" value="0" /></p>
+					<p align="center">Vitória do Jogador: <input class="asd" id="placar-jogador" type="text" disabled="disabled" value="0" /></p>
+					<p align="center"><input id="resetar" type="button" value='RESETAR' onclick="resetar(0)" /></p>
+				</div>
+			</div>	
+		<div id="rodape"></div>
+	</div>	
+</body>
+</html>

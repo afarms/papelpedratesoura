@@ -1,0 +1,102 @@
+
+.principal{
+	width: 1200px;
+	border: 2px solid #000;
+	background-color: white;
+	/*Alinhar a div no centro*/
+	margin-left: auto;
+	margin-right: auto;
+	min-height:100%; /*altura mínima da página*/
+	height: auto;
+
+}
+* html .principal{ height: 100%; } /* linha usada para colocar a altura mínima da página no explore, póis não é reconhecido o min-height*/
+#layout{
+	background-color:black;
+	color:white;
+	width: 1000px;
+
+	/*Alinhar a div no centro da tela*/
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#jogador{
+	float:left;
+	height: 300px; 
+	width:50%;
+	background-color:#86888c;
+
+}
+#computador{
+	float: right;
+	/*margin-left: 30%;*/
+	width: 50%;
+	height: 300px;
+	background-color:yellow;
+	
+}
+body { height: 100%; 
+	   margin: 0px; /*remove a margem do corpo da página*/
+	   background-color:#9ca2ad;
+	}
+html { height: 100%; }
+/*Imagens de funto dos botões*/
+#b_tesoura{
+	background-image: url("imagem/icontesoura48.png");
+	width: 60px;
+	height: 50px;
+	background-repeat: no-repeat;
+}
+#b_papel{
+	background-image: url("imagem/iconmao48.png");
+	width: 60px;
+	height: 50px;
+	background-repeat: no-repeat;
+}
+#b_pedra{
+	background-image: url("imagem/iconpedra48.png");
+	width: 60px;
+	height: 50px;
+	background-repeat: no-repeat;
+}
+/*IMAGEM DO COMPUTADOR*/
+#jogadapc{
+	width: 160px;
+	height: 160px;
+	background-repeat: no-repeat;
+
+
+}
+/*Resultado*/
+#kk{
+	margin-left: auto;
+	margin-right: auto;
+	width: 540px;
+	height: 50%;
+}
+#placar{
+	float:left;
+	height: 150px; 
+	width:268px;
+	background-color:#86888c;
+	border: 2px ridge;
+
+}
+#placar2{
+	float: right;
+	width: 264px;
+	height: 150px;
+	border: 2px ridge;
+	background-color:yellow;
+
+}
+.asd{
+	width: 30px;
+	text-align: center;
+}
+#resetar{
+	width: 80px;
+}
+
+#rodape{ clear: both; }
