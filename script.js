@@ -3,7 +3,7 @@
 1 - PAPEL
 2 - TESOURA
 */
-alert("As regras");
+alert("As regras: \n Pedra vence Tesoura \n Tesoura vence Papel \n Papel vence Pedra.");
 var vitoria=0, derrota=0, empatou=0; 
 
 /*Função que vai reiniciar o jogo*/
