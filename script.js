@@ -3,10 +3,6 @@
 1 - PAPEL
 2 - TESOURA
 */
-function resetar (r){
-
-
-}
 
 var vitoria=0, derrota=0, empatou=0; 
 
