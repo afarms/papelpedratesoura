@@ -3,7 +3,7 @@
 1 - PAPEL
 2 - TESOURA
 */
-alert("As regras são:");
+alert("As regras");
 var vitoria=0, derrota=0, empatou=0; 
 
 /*Função que vai reiniciar o jogo*/
@@ -97,20 +97,3 @@ if(t==c){
 
 		}
 			}
-/*
-var Resultado ="imagem/icontesoura48.png";
-
-		document.getElementById("i").innerHTML = Resultado;
-		document.getElementById("i").style.color = "red";
-		document.writeln("Estou com sono não! ");
-
-
-		var h;
-		var l;
-		var k = testedafuncao(2,3);
-		function testedafuncao(h,l){
-			var resposta = h+l-0.5;
-			return resposta;
-
-		}
-		console.log("O resultado da função foi :" + k);*/
