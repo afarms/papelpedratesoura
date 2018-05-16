@@ -3,7 +3,7 @@
 1 - PAPEL
 2 - TESOURA
 */
-
+alert("As regras são:");
 var vitoria=0, derrota=0, empatou=0; 
 
 /*Função que vai reiniciar o jogo*/
